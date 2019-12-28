@@ -1,0 +1,164 @@
+﻿
+* { padding: 0; margin: 0 auto; border-collapse: collapse; }
+
+html { background-color: #e1d3b1; }
+
+body { width: 888px; background-color: #f1e9d6; } 
+
+table { width: 888px; border: 1px solid #765; background-color: #f5ead8; }
+
+
+#menu-top {
+	FONT-SIZE: 14px; font-family: "Trebuchet MS";   BACKGROUND: url(bg.gif) #dae0d2 repeat-x 50% bottom; FLOAT: left; WIDTH: 100%; LINE-HEIGHT: normal; font-weight: normal; MARGIN-TOP: 14px; }
+#menu-top UL {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 10px; LIST-STYLE-TYPE: none;    
+}
+#menu-top LI {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 6px; BACKGROUND: url(left.gif) no-repeat left top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; }
+#menu-top A {
+	PADDING-RIGHT: 16px; DISPLAY: block; PADDING-LEFT: 10px; FONT-WEIGHT: bold; BACKGROUND: url(right.gif) #f1e9d6 no-repeat right top; FLOAT: left; PADDING-BOTTOM: 4px; COLOR: #765; PADDING-TOP: 5px; TEXT-DECORATION: none; }
+#menu-top A {
+	FLOAT: none; 
+}
+#menu-top A:hover {
+	COLOR: #352921;
+}
+#menu-top #activ {
+	BACKGROUND-IMAGE: url(left_on.gif); 
+}
+#menu-top #activ A {
+	BACKGROUND-IMAGE: url(right_on.gif); PADDING-BOTTOM: 5px; COLOR: #352921;
+}
+
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+	
+	#left-menu ul li {
+	list-style: none;
+	margin-bottom: 2px;
+	padding: 0;
+	}
+	
+	
+#left-menu {
+	width: 200px;
+	margin-top: 20px; 
+	margin-bottom: 21px;
+	margin-left: 38px;
+	margin-right: 38px;
+	FONT-SIZE: 14px; font-family: "Trebuchet MS"; font-weight: bold;
+	}
+	
+	#left-menu p { font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 13px; color: #453a1e; font-style: italic; padding-top: 20px; }
+	
+#left-menu li a {
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	text-decoration: none;
+	}	
+	
+#left-menu li a:link, #left-menu li a:visited {
+	color: #453a1e;
+	display: block;
+	background:  url(menu14.gif);
+	padding: 8px 0 0 10px;
+	}
+	
+#left-menu li a:hover, #left-menu li #current { 
+	color: #352921;
+	background:  url( menu14.gif) 0 -32px;
+	padding: 8px 0 0 10px;
+	}
+
+.logo-drovales { background-color: #f5ead8; font-size: 18px; color: #352921; font-family: Georgia, "Times New Roman", Times, serif; text-align: center;  font-weight: bold; padding-top: 22px; padding-right: 34px;  padding-bottom: 0px;  padding-left: 38px; }
+
+.pro-drovales .drova-kuzov-setki { background-color: #f5ead8; font-size: 18px; color: #352921; font-family: Georgia, "Times New Roman", Times, serif; text-align: center;  font-weight: bold; padding-top: 22px; padding-right: 34px;  padding-bottom: 12px;}
+
+h1 { font-size: 18px; color: #352921; font-family: Georgia, "Times New Roman", Times, serif; text-align: center;  font-weight: bold;  padding-bottom: 19px; }
+
+h2 { font-size: 17px; color: #352921; font-family: Georgia, "Times New Roman", Times, serif; text-align: center;  font-weight: bold;  padding-right: 60px; padding-bottom: 5px; }
+
+.pro-drovales h2 { color: #765914; text-decoration: none; font-size: 17px; color: #352921; font-family: Georgia, "Times New Roman", Times, serif; text-align: center;  font-weight: bold; padding-top: 10px; padding-right: 0px; }
+
+.pro-drovales .drovavsetke { padding-left: 55px; padding-bottom: 38px; }
+
+h3 { font-size: 16px; color: #352921; font-family: Georgia, "Times New Roman", Times, serif; text-align: center;  font-weight: bold; padding-top: 12px;  }
+
+h4 { font-size: 13px; color: #352921; font-family: Georgia, "Times New Roman", Times, serif; text-align: center;  font-weight: bold; padding-top: 12px;  }
+
+strong { font-family: Georgia, "Times New Roman", Times, serif; color: #660105; }
+
+.company-name { width: 273px; padding: 0px; margin: 0px; background-color: #f5ead8; }
+
+.text-pro-drova { padding-top: 19px; padding-left: 0px; padding-right: 38px; padding-bottom: 19px; background-color: #fff; color: #453a1e; font-family: "Trebuchet MS"; font-weight: bold; font-size: 14px; text-indent: 25px; }
+
+.text-pro-drova a { color: #FF3300; text-decoration: none; font-family: "Trebuchet MS"; font-weight: bold; text-decoration: underline; }
+
+.text-pro-drova a:hover { color: #352921; text-decoration: none }
+
+.telefon-for-firewoods { padding: 10px; background-color: #fff; text-align: center; }
+
+.telefon-for-firewoods p { color: #660105; font-family: "Trebuchet MS"; font-weight: bold; font-size: 15px; padding-left: 38px; padding-right: 38px; }
+
+.menu-drovales td { background-color: #f1e9d6; width: 273px; }
+
+.img-left { float: left; padding-top: 38px; padding-left: 38px; padding-right: 38px; padding-bottom: 38px; }
+
+.img-right { float: right; padding-top: 38px; padding-left: 38px; padding-right: 38px; padding-bottom: 38px; }
+
+.pro-drovales p { padding-top: 12px; padding-left: 38px; padding-right: 32px; color: #453a1e; font-family: "Trebuchet MS"; font-weight: normal; font-size: 14px; text-indent: 25px; }
+
+.pro-drovales a { color: #FF3300; text-decoration: none; font-family: "Trebuchet MS"; font-weight: bold; text-decoration: underline; }
+
+.pro-drovales a:hover { color: #352921; text-decoration: none }
+
+.prava-drovales { text-align: center; font-weight: bold; padding: 12px; font-size: 15px; color: #352921; font-family: Georgia, "Times New Roman", Times, serif; } 
+
+.prava-drovales img {} 
+
+.livinternet { padding-left: 30px; background: #FFF; }
+
+.email-for-firewoods { padding-right: 33px; background: #fff; text-align: right; } 
+
+address { font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 13px; color: #453a1e; } 
+
+.sell-drova { text-indent: 25px; width: 280px; padding-bottom: 28px; }
+
+.sell-drova p { padding-left: 0px; padding-top: 0px; padding-right: 38px; color: #453a1e; font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 15px; font-weight: normal; text-indent: 25px; }
+
+.sell-drova a { color: #765914; }
+
+.sell-drova a:hover { color: #352921; }
+
+.price-drova { border: none; }
+
+.price-drova2 { border: none; }
+
+.price-drova img { padding-left: 38px; }
+
+.price-drova2 img { padding-right: 0px; padding-left: 38px; padding-bottom: 38px; }
+
+.superprice { font-size: 17px; color: #352921; font-family: Georgia, "Times New Roman", Times, serif; text-align: center;  font-weight: bold; padding-top: 15px;  padding-left: 10px; }
+.kamin { padding-right: 38px; padding-top: 15px; padding-bottom: 19px; }
+
+.livinternet { padding-left: 38px; }
+
+.superprice a { color: #FF3300; text-decoration: none; font-family: "Trebuchet MS"; font-weight: bold; text-decoration: underline; }
+
+.superprice a:hover { color: #352921; text-decoration: none }
+
+.drova-sovet p { font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 13px; color: #453a1e; font-style: italic; background-color: #fff; text-indent: 25px;padding-top: 19px; padding-left: 0px; padding-right: 38px; padding-bottom: 19px; }
+
+
+
+
+
+
+
+
